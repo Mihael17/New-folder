@@ -25,9 +25,10 @@ def main():
 def get_Password_Length():
     password_length = int(input("\nHow long do you want your password to be (minimum of 8 number)"))
     while password_length < 8:
-        print("Your password must have at least 8 characters\n")
-        password_length = int(input("Enter the length of password: "))
+            print("Your password must have at least 8 characters\n")
+            password_length = int(input("Enter the length of password: "))
     return password_length
+
      
 
 
